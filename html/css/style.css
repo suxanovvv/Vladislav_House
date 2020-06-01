@@ -1,0 +1,124 @@
+.Building {
+    position: absolute;
+    width: 239px;
+    height: 150px;
+    background: #030303;
+    left: 16px;
+    top: 136px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Krysha {
+    position: absolute;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid #24375B;
+    padding-left: 0px; 
+    top: 17px;
+    left: 16px;
+}
+
+.Okno {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    top: 170px;
+    left: 35px;
+}
+
+.Okno1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    top: 170px;
+    left: 200px;
+}
+
+.Dverka {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    background: rgb(243, 161, 8);
+    left: 103px;
+    top: 186px;
+}
+
+.father {
+    position: relative;
+}
+
+.Okno-son {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    left: 90px;
+    top: 30px;
+}
+
+.Okno1-son {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    left: -90px;
+}
+
+.Building-son {
+    position: relative;
+    width: 240px;
+    height: 150px;
+    background: #08bdeb;
+    top: 136px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Dverka-son {
+    position: relative;
+    width: 60px;
+    height: 100px;
+    background: rgb(49, 3, 58);
+    top: -24px;
+}
+
+.Krysha-son {
+    position: relative;
+    width: 0; 
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid rgb(238, 73, 8);
+    top: -293px;
+}
+
+.Building-statical {
+    position: static;
+    width: 239px;
+    height: 190px;
+    margin: -308px 1250px;
+    background: #ee0bb5;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Krysha-statical {
+    position: static;
+    width: 0; 
+    height: 0;
+    margin: -283px 1250px;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid rgb(46, 238, 8);
+}
+
+.Okno-statical {
+    
+}
+
+.Povidomlenya {
+    margin-top: 600px;
+}
